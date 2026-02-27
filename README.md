@@ -12,8 +12,8 @@ The data loader used in this notebook is taken from:  https://github.com/jet-uni
 
 XCAM_sigbkg_1000.ipynb
 
-In this notebook I report the full code of the XAI model in use for the classification task in signal-background (top decay vs qcd events).
-The model in use is custumized EfficientNetV2-S, pretrained with ImageNet1k.
-Starting from the images generated with blob.ipynb, we performe classification for different jet blob  per single image.
-The extreme differences of the images in this example guarantee a perfect classification over the test sample.
-The code continues with the explainability part where the metric deletion and insertion are calculated by considering three different CAM methods: GradCAM, ScoreCAM and EigenCAM.
+In this notebook, I present the complete code of the XAI model used for the signal–background classification task (top-quark decay vs. QCD events).
+The model is a customized EfficientNetV2-S, pretrained on ImageNet-1k.
+Starting from the images generated with blob.ipynb, we perform classification on different jet blobs within each single image.
+The extreme differences between the images in this example guarantee perfect classification on the test sample.
+The code then proceeds with the explainability stage, where the deletion and insertion metrics are computed using three different CAM methods: Grad-CAM, Score-CAM, and Eigen-CAM.
