@@ -17,3 +17,9 @@ The model is a customized EfficientNetV2-S, pretrained on ImageNet-1k.
 Starting from the images generated with blob.ipynb, we perform classification on different jet blobs within each single image.
 The extreme differences between the images in this example guarantee perfect classification on the test sample.
 The code then proceeds with the explainability stage, where the deletion and insertion metrics are computed using three different CAM methods: Grad-CAM, Score-CAM, and Eigen-CAM.
+
+#-
+
+pretrain_1000_10cl.ipynb
+
+A first test of complete transfer learning from HEP to medical field.
